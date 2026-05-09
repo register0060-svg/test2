@@ -1,0 +1,148 @@
+{
+  "language_name": "O'zbekcha",
+  "language_code": "uz",
+
+  "help": {
+    "header": "Salom {player_name} sky.bots botiga xush kelibsiz",
+    "commands": {
+      "01": "Layk olish",
+      "02": "Guruh limiti",
+      "03": "O'yinchi ma'lumoti",
+      "04": "Ban tekshirish",
+      "05": "O'yinchini chaqirish",
+      "06": "Xabar spami",
+      "07": "5v5 ochish",
+      "08": "Admin",
+      "09": "Guruhga qo'shilish",
+      "10": "Guruhdan chiqish",
+      "11": "So'rov spami",
+      "12": "O'yinchini chiqarish",
+      "13": "Lag qilish",
+      "14": "Qo'shilish spami",
+      "15": "Guruhga hujum",
+      "16": "Majburiy boshlash",
+      "17": "Emote takrorlash",
+      "18": "Botni do'stga qo'shish",
+      "19": "Do'stdan o'chirish",
+      "20": "O'yinchi statusi",
+      "21": "Guruhga arvoh qo'shish",
+      "22": "Bandl",
+      "23": "EVO aylanishi",
+      "24": "EVO to'xtatish",
+      "25": "Emote o'ynash",
+      "26": "Emote buyrug'i",
+      "27": "EVO emoti",
+      "28": "Emote o'ynash (ID)",
+      "29": "Tez o'ynash",
+      "31": "CL belgisi bilan qo'shilish",
+      "32": "V belgisi bilan qo'shilish",
+      "33": "Mdtr belgisi bilan qo'shilish",
+      "34": "Eski V belgisi bilan qo'shilish",
+      "35": "Pro belgisi bilan qo'shilish",
+      "36": "Barcha belgisi bilan qo'shilish",
+      "37": "Do'stga so'kish",
+      "38": "Shaxsiy xabar",
+      "39": "Bandl kiyish",
+      "40": "Admin rejimini yoqish",
+      "41": "Admin rejimini o'chirish",
+      "42": "Botni yoqish",
+      "43": "Botni o'chirish",
+      "44": "Foydalanuvchini bloklash",
+      "45": "Blokdan chiqarish",
+      "46": "Bandl o'rnatish",
+      "47": "Guruhni laglash",
+      "48": "Guruhga hujum",
+      "49": "Botni darajalash",
+      "50": "Darajalashni to'xtatish",
+      "51": "Bandl spami",
+      "52": "TCP do'koni",
+      "53": "Chaqiruv spami",
+      "54": "Do'st so'rovi spami",
+      "55": "Qo'shilish so'rovi spami",
+      "56": "O'zingizga emote o'ynash",
+      "57": "O'yinchiga emote o'ynash",
+      "58": "Botsiz emote o'ynash",
+      "59": "O'yinchiga botsiz emote",
+      "60": "O'zingizga EVO aylanishi",
+      "61": "O'yinchiga EVO aylanishi",
+      "62": "EVO aylanishini to'xtatish"
+    },
+    "footer": {
+      "title": "BOT MA'LUMOTI",
+      "developer": "Dasturchi",
+      "status": "Status",
+      "status_online": "ONLAYN",
+      "version": "Versiya"
+    }
+  },
+
+  "messages": {
+    "success": "✅ MUVAFFAQIYATLI!",
+    "error": "❌ XATO!",
+    "loading": "Yuklanmoqda...",
+    "processing": "Qayta ishlanmoqda...",
+    "sending": "Yuborilmoqda...",
+    "fetching": "Olinmoqda...",
+    "waiting": "Kutilmoqda...",
+    "completed": "Tugallandi!",
+    "failed": "Muvaffaqiyatsiz!",
+    "invalid_format": "Noto'g'ri format!",
+    "invalid_uid": "Noto'g'ri UID!",
+    "not_found": "Topilmadi!",
+    "timeout": "Vaqt tugadi!",
+    "connection_error": "Ulanish xatosi!",
+    "api_error": "API xatosi!"
+  },
+
+  "commands": {
+    "like": {
+      "sending": "Layk yuborilmoqda...",
+      "success": "Layk muvaffaqiyatli yuborildi {uid} o'yinchisiga!",
+      "error": "Layk yuborish xatosi!",
+      "usage": "Foydalanish: /like [uid]\nMisol: /like 123456789"
+    },
+    "info": {
+      "fetching": "O'yinchi ma'lumoti olinmoqda...",
+      "success": "O'yinchi ma'lumoti:",
+      "error": "Ma'lumot olish xatosi!",
+      "usage": "Foydalanish: /info [uid]\nMisol: /info 123456789"
+    },
+    "check": {
+      "checking": "Ban tekshirilmoqda...",
+      "banned": "O'yinchi banlangan!",
+      "not_banned": "O'yinchi banlanmagan!",
+      "error": "Tekshirish xatosi!",
+      "usage": "Foydalanish: /check [uid]\nMisol: /check 123456789"
+    },
+    "inv": {
+      "sending": "Chaqiruv yuborilmoqda...",
+      "success": "Guruhga chaqiruv muvaffaqiyatli yuborildi {uid} o'yinchisiga!",
+      "error": "Chaqiruv yuborish xatosi!",
+      "usage": "Foydalanish: /inv [uid]\nMisol: /inv 123456789"
+    },
+    "spam": {
+      "starting": "Spam boshlanmoqda...",
+      "running": "Spam ishlayapti...",
+      "stopped": "Spam to'xtatildi!",
+      "error": "Spam xatosi!",
+      "usage": "Foydalanish: /spam [uid]\nMisol: /spam 123456789"
+    },
+    "join": {
+      "joining": "Guruhga qo'shilmoqda...",
+      "success": "Guruhga muvaffaqiyatli qo'shildingiz!",
+      "error": "Qo'shilish xatosi!",
+      "usage": "Foydalanish: /join [TeamCode]\nMisol: /join 123456"
+    },
+    "exit": {
+      "leaving": "Guruhdan chiqilmoqda...",
+      "success": "Guruhdan muvaffaqiyatli chiqdingiz!",
+      "error": "Chiqish xatosi!"
+    },
+    "lang": {
+      "current": "Joriy til: {lang}",
+      "changed": "Til o'zgartirildi: {lang}",
+      "available": "Mavjud tillar: kz, uz, ru, en",
+      "usage": "Foydalanish: /lang [kz/uz/ru/en]\nMisol: /lang uz"
+    }
+  }
+}

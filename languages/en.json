@@ -1,0 +1,148 @@
+{
+  "language_name": "English",
+  "language_code": "en",
+
+  "help": {
+    "header": "Hey {player_name} Welcome To sky.bots's BOT",
+    "commands": {
+      "01": "Get Likes",
+      "02": "Group Limit",
+      "03": "Player Info",
+      "04": "Check Ban",
+      "05": "Player Invite",
+      "06": "Msg Spam",
+      "07": "Unlock 5v5",
+      "08": "Admin",
+      "09": "Join Team",
+      "10": "Leave Group",
+      "11": "Req Spam",
+      "12": "Kick Player",
+      "13": "Lag Calive",
+      "14": "Join Req Spam",
+      "15": "Attack Group",
+      "16": "Force Start",
+      "17": "Times Emote",
+      "18": "Add Bot Friend",
+      "19": "Remove Friend",
+      "20": "Player Status",
+      "21": "Add Ghost in Team",
+      "22": "Bundle",
+      "23": "EVO Cycle",
+      "24": "Stop Evo Cycle",
+      "25": "Emote Play",
+      "26": "Emote Command",
+      "27": "EVO Emote",
+      "28": "Play Emote (ID)",
+      "29": "Fast Play",
+      "31": "CL Badge Join",
+      "32": "V Badge Join",
+      "33": "Mdtr Badge Join",
+      "34": "Old V Badge Join",
+      "35": "Pro Badge Join",
+      "36": "All Badge Join",
+      "37": "Gali Friend",
+      "38": "Private Message",
+      "39": "Equip Bundle",
+      "40": "Admin Mode On",
+      "41": "Admin Mode Off",
+      "42": "On Bot",
+      "43": "Off Bot",
+      "44": "Block User",
+      "45": "Unblock User",
+      "46": "Set Bundle",
+      "47": "Lag Team",
+      "48": "Attack Team",
+      "49": "Level Up Bot",
+      "50": "Stop Level Up Bot",
+      "51": "Bundle Spam",
+      "52": "TCP Store",
+      "53": "Spam Invite",
+      "54": "Spam Friend Requests",
+      "55": "Spam Join Requests",
+      "56": "Play Emote Self",
+      "57": "Play Emote Player",
+      "58": "Play Emote Without Bot",
+      "59": "Player Emote Without Bot",
+      "60": "Evo Cycle Self",
+      "61": "Evo Cycle Player",
+      "62": "Stop Evo Cycle"
+    },
+    "footer": {
+      "title": "BOT INFO",
+      "developer": "Developer",
+      "status": "Status",
+      "status_online": "ONLINE",
+      "version": "Version"
+    }
+  },
+
+  "messages": {
+    "success": "✅ SUCCESS!",
+    "error": "❌ ERROR!",
+    "loading": "Loading...",
+    "processing": "Processing...",
+    "sending": "Sending...",
+    "fetching": "Fetching...",
+    "waiting": "Waiting...",
+    "completed": "Completed!",
+    "failed": "Failed!",
+    "invalid_format": "Invalid format!",
+    "invalid_uid": "Invalid UID!",
+    "not_found": "Not found!",
+    "timeout": "Timeout!",
+    "connection_error": "Connection error!",
+    "api_error": "API error!"
+  },
+
+  "commands": {
+    "like": {
+      "sending": "Sending Likes...",
+      "success": "Likes successfully sent to player {uid}!",
+      "error": "Error sending likes!",
+      "usage": "Usage: /like [uid]\nExample: /like 123456789"
+    },
+    "info": {
+      "fetching": "Fetching Player Info...",
+      "success": "Player Info:",
+      "error": "Error fetching info!",
+      "usage": "Usage: /info [uid]\nExample: /info 123456789"
+    },
+    "check": {
+      "checking": "Checking Ban...",
+      "banned": "Player is banned!",
+      "not_banned": "Player is not banned!",
+      "error": "Error checking ban!",
+      "usage": "Usage: /check [uid]\nExample: /check 123456789"
+    },
+    "inv": {
+      "sending": "Sending Invite...",
+      "success": "Group invitation successfully sent to player {uid}!",
+      "error": "Error sending invite!",
+      "usage": "Usage: /inv [uid]\nExample: /inv 123456789"
+    },
+    "spam": {
+      "starting": "Starting Spam...",
+      "running": "Spam is running...",
+      "stopped": "Spam stopped!",
+      "error": "Spam error!",
+      "usage": "Usage: /spam [uid]\nExample: /spam 123456789"
+    },
+    "join": {
+      "joining": "Joining Team...",
+      "success": "Successfully joined the team!",
+      "error": "Error joining team!",
+      "usage": "Usage: /join [TeamCode]\nExample: /join 123456"
+    },
+    "exit": {
+      "leaving": "Leaving Group...",
+      "success": "Successfully left the group!",
+      "error": "Error leaving group!"
+    },
+    "lang": {
+      "current": "Current language: {lang}",
+      "changed": "Language changed to: {lang}",
+      "available": "Available languages: kz, uz, ru, en",
+      "usage": "Usage: /lang [kz/uz/ru/en]\nExample: /lang en"
+    }
+  }
+}
